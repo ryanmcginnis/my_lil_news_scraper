@@ -9,4 +9,7 @@ except:
 article = Article(url)
 article.download()
 article.parse()
+print("\n")
+print(article.title)
+print("\n")
 print(article.text)
